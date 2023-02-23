@@ -1,0 +1,9 @@
+# Build: 
+```
+g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp Individuo2.cpp GA.cpp optimizeGASS.cpp -pthread -O3
+```
+
+# Run
+```
+./a.out 
+```
