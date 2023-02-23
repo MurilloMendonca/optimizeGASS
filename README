@@ -1,9 +1,14 @@
 # Build: 
+Build it with:
 ```
-g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp Individuo2.cpp GA.cpp optimizeGASS.cpp -pthread -O3
+make
 ```
 
+And you can clear the .o files with:
+```
+make clean
+```
 # Run
 ```
-./a.out 
+./optimizeGASS 
 ```
